@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dating dashboard</title>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/output.css"> -->
+    <script src="tailwind/tailwind.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bg-purple-900 md:bg-purple-50">
+    <div class=" lg:flex lg:pt-[10px] mt-[10px] ml-[20px]">
+        <div class="lg:block hidden bg-purple-900 h-[800px] w-[300px] " style="border-top-left-radius: 70px;">
+            <h1 class="text-center text-white text-2xl font-bold pt-[10px]">2 KNACK</h1>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[50px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="person-circle-outline" class="mt-1"></ion-icon>
+                <p class="ml-1">profile</p>
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[220px] hover:ml-[10px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="cloud-upload-outline" class="mt-1"></ion-icon>           
+                <p class="ml-1">Upload video/image</p>
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="refresh-outline" class="mt-1"></ion-icon>
+                <p class="ml-1">Change Status</p>
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="add-circle-outline" class="mt-1"></ion-icon>
+                <p  class="ml-1">Add Wallet</p>
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="create-outline" class="mt-1"></ion-icon> 
+                <p class="ml-1">Edit profile</p>  
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="notifications-outline" class="mt-1"></ion-icon>
+                <p class="ml-1">Notifications</p>
+            </div>
+
+            <div class="flex text-1xl font-[500] ml-[90px] mt-[30px] text-purple-400 hover:bg-purple-400 hover:h-10 hover:w-[160px] hover:pt-2 hover:rounded-[25px] hover:text-white hover:px-4 pb-2">
+                <ion-icon name="log-out-outline" class="mt-1"></ion-icon>
+                <p class="ml-1">Log out</p>
+            </div>
+        </div>
+        <div class="md:block hidden bg-purple-200 pt-[10px] h-[800px] w-[990px]" style="border-top-right-radius: 70px;">
+            <div class="bg-white h-[60px] w-[899px] ml-[20px] " style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-right-radius: 20px;">
+                <div class="flex">
+                    <h1 class="mt-[10px] text-purple-900 font-bold ml-[10px] text-justify text-xl">PROFILE</h1>
+                    <form action="">
+                        <div class="flex mt-[15px]">
+                            <input type="text" placeholder="search" class="bg-gray-200 ml-[550px] h-[30px] rounded-2xl pl-3">
+                            <ion-icon name="search-outline" class="h-[25px] w-[25px] bg-purple-900 rounded-2xl text-white ml-[-27px] mt-[2px]"></ion-icon>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="flex">
+                <div class=" flex bg-white h-[250px] w-[600px] ml-[20px] mt-[20px] rounded-[20px]">
+                    <div><img src="profile2.png" alt="" class="w-[150px] ml-[20px] mt-[10px]">
+                        <p class="text-purple-400 ml-[75px]">active</p>
+                    </div>
+                    <div>
+                        <h1 class="text-purple-900 text-xl font-bold mt-[10px] ml-[25px]">Client Onboard</h1>
+                        <div class="flex mt-[15px] ml-[25px] font-medium">
+                            <p class="text-purple-400">Date Applied:</p>
+                            <p class="text-purple-900 ml-[5px]">24 April 2024</p>
+                        </div>
+                        <div class="flex mt-[10px] ml-[25px] font-medium">
+                            <p class="text-purple-400">Location:</p>
+                            <p class="text-purple-900 ml-[5px]">Ikorodu,Lagos</p>
+                        </div>
+                        <div class="flex mt-[10px] ml-[25px] font-medium">
+                            <p class="text-purple-400">Age:</p>
+                            <p class="text-purple-900 ml-[5px]">24</p>
+                        </div>
+                        <div class="flex mt-[10px] ml-[25px] font-medium">
+                            <p class="text-purple-400">E-mail:</p>
+                            <p class="text-purple-900 ml-[5px]">clientonboard@gmail.com</p>
+                        </div>
+                        <div class="flex ">
+                            <ion-icon name="logo-facebook" class="h-[30px] w-[30px] bg-white rounded-2xl text-purple-900 ml-[25px] mt-[15px]"></ion-icon>
+                            <ion-icon name="logo-twitter" class="h-[30px] w-[30px] bg-white rounded-2xl text-purple-900 ml-[15px] mt-[15px]"></ion-icon>
+                            <ion-icon name="call-outline" class="h-[30px] w-[30px] bg-white rounded-2xl text-purple-900 ml-[15px] mt-[15px]"></ion-icon>
+                            <ion-icon name="paper-plane-outline" class="h-[30px] w-[30px] bg-white rounded-2xl text-purple-900 ml-[15px] mt-[15px]"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white h-[250px] w-[280px] ml-[20px] mt-[20px] rounded-[20px]">
+                    <h1 class="text-purple-900 text-xl font-bold ml-[20px] mt-[10px]">Payment Method</h1>
+                    <div class="mt-[15px]">
+                        <form action="">
+                            <label for="" class="text-purple-900 text-lg font-medium ml-[20px] ">Wallet Account</label><br>
+                            <input type="text" placeholder="0000-0000-0000-0000" class="bg-gray-200 pl-3 h-[45px] w-[230px] ml-[20px] rounded-3xl">
+                        </form> 
+                        <div class="flex mt-[20px]">
+                            <img src="western union.png" alt="" class="h-[30px] ml-[20px]">
+                            <img src="G pay.png" alt="" class="h-[30px] ml-[20px] shadow-md">
+                        </div>
+                        <div class="flex mt-[20px]">
+                            <img src="mastercard.png" alt="" class="h-[40px] w-[90px] ml-[20px] shadow-md">
+                            <img src="visa.png" alt="" class="h-[40px] w-[90px] ml-[20px] shadow-md">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="bg-white h-[400px] w-[600px] ml-[20px] mt-[20px] rounded-[20px]"></div>
+                <div class="bg-purple-900 h-[400px] w-[280px] ml-[20px] mt-[20px] rounded-[20px]"></div>
+            </div>
+        </div>
+
+       <!-- mobile view -->
+       <div class="block md:hidden">
+        <div class=" bg-white h-[250px] w-[250px] mt-[10px] rounded-md">
+            <div><img src="profile2.png" alt="" class="w-[150px] items-center ml-[50px] mt-[20px]">
+                <p class="text-purple-400 ml-[0px] text-center">active</p>
+                <h1 class="text-purple-900 text-xl font-bold mt-[px] ml-[15px] text-center">Client Onboard, 24</h1>
+                <div class="flex"><p class="text-purple-400 text-center text-sm ml-5">E-mail:</p>
+                    <p class="text-purple-900 text-center text-sm">clientonboard@gmail.com</p>
+                </div>
+                <div class="flex"><p class="text-purple-400 text-center text-sm ml-5">Lacation:</p>
+                    <p class="text-purple-900 text-center text-sm">Ikorodu,Lagos</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    </div>
+    
+
+   
+    
+</body>
+</html>

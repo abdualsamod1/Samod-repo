@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <script src="tailwind/tailwind.js"></script> -->
+    <link rel="stylesheet" href="./src/output.css">
+    <script>
+        // function validateform()
+        // {
+        //     var Firstname = document.getElementById("a").value;
+        //     var lastname = document.getElementById("b").value;
+        //     var email = document.getElementById("c").value;
+        //     var Phone = document.getElementById("d").value;
+        //     var password = document.getElementById("e").value;
+        //     var Confrim = document.getElementById("f").value;
+
+        //     if(Firstname == "",!! lastname =="",!!email == "",!! Phone =="")
+        //     {
+        //         alert("field cannot be empyt");
+        //         return;
+        //     }
+        //     if(password != Confrim)
+        //     {
+        //         alert("password does not match");
+        //     }
+        //     else{
+        //         alert("password match");
+        //     }
+        // }
+    </script>
+</head>
+<body class="bg-white ">
+    <div class="flex">
+        <div class="w-[300px] h-[520px] bg-purple-500 ml-5 mt-10 rounded-[40px] shadow-[60] ">
+            <img src="img.webp" alt="" class="w-[300px] h-[520px] rounded-[40px]">
+        </div>
+        <div>
+            <h1 class="text-purple-600 font-bold text-3xl mt-[20px] ml-[50px]">Create an Account</h1>
+            
+            <form action="">
+                <div class="flex">
+                    <div><label for="" class="ml-[50px] font-[600] text-xl" >First Name</label><br>
+                        <input type="text" id="a" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300"></div>
+                        <div>
+                            <label for="Name" class="mt-[300px] ml-[50px] pt-1  font-[600] text-xl" id="b">last Name</label><br>
+                            <input type="text" id="b" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                        </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div><label for="" class="ml-[50px] font-[600] text-xl">Age</label><br>
+                        <input type="text" id="c" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300"></div>
+                        <div>
+                            <label for="Name" class="mt-[300px] ml-[50px] pt-1  font-[600] text-xl">Occupation</label><br>
+                            <input type="text" id="d" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                        </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div><label for="" class="ml-[50px] font-[600] text-xl">Phone No</label><br>
+                        <input type="text" id="c" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300"></div>
+                        <div>
+                            <label for="Name" class="mt-[300px] ml-[50px] pt-1  font-[600] text-xl">Location</label><br>
+                            <input type="text" id="d" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                        </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div><label for="" class="ml-[50px] font-[600] text-xl">Email Address</label><br>
+                        <input type="text" id="c" class="ml-[50px] h-[35px] w-[630px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300"></div>
+                        <!-- <div>
+                            <label for="Name" class="mt-[300px] ml-[100px] pt-1  font-[600] text-xl">picture</label><br>
+                            <input type="file" accept="image/*" id="d" class="ml-[100px] h-[35px] w-[200px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                        </div> -->
+                </div>
+                <!-- <div>
+                    <label for="" class="ml-[50px] font-[600] text-xl">Location</label><br>
+                    <input type="text" id="c" class="ml-[50px] h-[35px] w-[200px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                </div> -->
+                <div class="mt-[15px]">
+                    <label for="" class="ml-[50px] font-[600] text-xl">Home Address</label><br>
+                    <input type="text" id="c" class="ml-[50px] h-[35px] w-[630px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                </div>
+                <div class="flex mt-[15px]">
+                    <div><label for="" class="ml-[50px] font-[600] text-xl">Password</label><br>
+                        <input type="password" id="e" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300"></div>
+                        <div>
+                            <label for="Name" class="mt-[300px] ml-[50px] pt-1  font-[600] text-xl">Confrim Password</label><br>
+                            <input type="password" id="f" class="ml-[50px] h-[35px] w-[290px] px-3 border-red-700 border bg-[transparent] rounded-md hover:border-pink-300">
+                        </div>
+                </div>
+            </form>
+            <button class="w-[630px] h-[35px] bg-[transparent] border border-red-700 rounded-md ml-[50px] mt-[15px] bg-purple-500">Sign Up</button>
+            <div class="mt-[-500px] ml-[720px]">
+                <div class="bg-gray-200 w-[200px] h-[200px] mt-[20px] rounded-[15px]" style="position: relative;">
+                    <!-- <i class='bx bxs-cloud-upload'class="font-100px"></i> -->
+                    <div class=""><img src="cloud-computing.png" alt="" class="h-[50px] w-[50px] ml-[75px]  " style="align-items: center;" ></div>
+                    <h3 class="font-bold text-2xl mt-[6px] text-center">Upload image</h3>
+                    <p class="text-light text-gray-500 text-sm ">Image size must be less than <span class="font-[200px]">5MB</span></p>
+                </div>
+                <div>
+                    <button class="w-[170px] h-[30px] bg-blue-500 rounded-[15px] ml-[30px] mt-[10px] hover:bg-blue-700" style="cursor: pointer font; font-size: 15px; font-weight: 500; transition: all .3s ease;">select Image</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+            
+</body>
+</html>
